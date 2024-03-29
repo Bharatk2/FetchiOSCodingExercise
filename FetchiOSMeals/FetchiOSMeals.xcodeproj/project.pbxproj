@@ -13,6 +13,15 @@
 		1873DDC22BB6622E0070BB8C /* FetchiOSMealsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873DDC12BB6622E0070BB8C /* FetchiOSMealsTests.swift */; };
 		1873DDCC2BB6622E0070BB8C /* FetchiOSMealsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873DDCB2BB6622E0070BB8C /* FetchiOSMealsUITests.swift */; };
 		1873DDCE2BB6622E0070BB8C /* FetchiOSMealsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873DDCD2BB6622E0070BB8C /* FetchiOSMealsUITestsLaunchTests.swift */; };
+		1873DDDB2BB662DE0070BB8C /* MealsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873DDDA2BB662DE0070BB8C /* MealsData.swift */; };
+		1873DDDD2BB663620070BB8C /* MealsNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873DDDC2BB663620070BB8C /* MealsNetworking.swift */; };
+		1873DDDF2BB663910070BB8C /* MealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873DDDE2BB663900070BB8C /* MealsView.swift */; };
+		1873DDE12BB663A90070BB8C /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873DDE02BB663A90070BB8C /* MealDetailView.swift */; };
+		1873DDE32BB66AD00070BB8C /* MealsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873DDE22BB66AD00070BB8C /* MealsViewModel.swift */; };
+		1873DDE52BB66F230070BB8C /* Elevations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873DDE42BB66F230070BB8C /* Elevations.swift */; };
+		1873DDE92BB678880070BB8C /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873DDE82BB678880070BB8C /* NetworkingError.swift */; };
+		1873DDEB2BB678A10070BB8C /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873DDEA2BB678A10070BB8C /* ImageLoader.swift */; };
+		1873DDED2BB678D40070BB8C /* MealsEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873DDEC2BB678D40070BB8C /* MealsEndPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +52,15 @@
 		1873DDC72BB6622E0070BB8C /* FetchiOSMealsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchiOSMealsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1873DDCB2BB6622E0070BB8C /* FetchiOSMealsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchiOSMealsUITests.swift; sourceTree = "<group>"; };
 		1873DDCD2BB6622E0070BB8C /* FetchiOSMealsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchiOSMealsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1873DDDA2BB662DE0070BB8C /* MealsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsData.swift; sourceTree = "<group>"; };
+		1873DDDC2BB663620070BB8C /* MealsNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsNetworking.swift; sourceTree = "<group>"; };
+		1873DDDE2BB663900070BB8C /* MealsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsView.swift; sourceTree = "<group>"; };
+		1873DDE02BB663A90070BB8C /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		1873DDE22BB66AD00070BB8C /* MealsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsViewModel.swift; sourceTree = "<group>"; };
+		1873DDE42BB66F230070BB8C /* Elevations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevations.swift; sourceTree = "<group>"; };
+		1873DDE82BB678880070BB8C /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		1873DDEA2BB678A10070BB8C /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		1873DDEC2BB678D40070BB8C /* MealsEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsEndPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +112,11 @@
 			isa = PBXGroup;
 			children = (
 				1873DDAD2BB6622D0070BB8C /* FetchiOSMealsApp.swift */,
+				1873DDEF2BB6796B0070BB8C /* ViewModel */,
+				1873DDEE2BB6795B0070BB8C /* Model */,
+				1873DDE62BB678670070BB8C /* Networking */,
+				1873DDF12BB679940070BB8C /* Views */,
+				1873DDF02BB679790070BB8C /* Utilites+Extensions */,
 				1873DDB32BB6622E0070BB8C /* Assets.xcassets */,
 				1873DDB52BB6622E0070BB8C /* FetchiOSMeals.entitlements */,
 				1873DDB62BB6622E0070BB8C /* Preview Content */,
@@ -124,6 +147,50 @@
 				1873DDCD2BB6622E0070BB8C /* FetchiOSMealsUITestsLaunchTests.swift */,
 			);
 			path = FetchiOSMealsUITests;
+			sourceTree = "<group>";
+		};
+		1873DDE62BB678670070BB8C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1873DDDC2BB663620070BB8C /* MealsNetworking.swift */,
+				1873DDEC2BB678D40070BB8C /* MealsEndPoint.swift */,
+				1873DDEA2BB678A10070BB8C /* ImageLoader.swift */,
+				1873DDE82BB678880070BB8C /* NetworkingError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1873DDEE2BB6795B0070BB8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1873DDDA2BB662DE0070BB8C /* MealsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1873DDEF2BB6796B0070BB8C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1873DDE22BB66AD00070BB8C /* MealsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1873DDF02BB679790070BB8C /* Utilites+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1873DDE42BB66F230070BB8C /* Elevations.swift */,
+			);
+			path = "Utilites+Extensions";
+			sourceTree = "<group>";
+		};
+		1873DDF12BB679940070BB8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1873DDDE2BB663900070BB8C /* MealsView.swift */,
+				1873DDE02BB663A90070BB8C /* MealDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +323,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1873DDDB2BB662DE0070BB8C /* MealsData.swift in Sources */,
+				1873DDED2BB678D40070BB8C /* MealsEndPoint.swift in Sources */,
+				1873DDDD2BB663620070BB8C /* MealsNetworking.swift in Sources */,
+				1873DDE92BB678880070BB8C /* NetworkingError.swift in Sources */,
+				1873DDE12BB663A90070BB8C /* MealDetailView.swift in Sources */,
 				1873DDAE2BB6622D0070BB8C /* FetchiOSMealsApp.swift in Sources */,
+				1873DDEB2BB678A10070BB8C /* ImageLoader.swift in Sources */,
+				1873DDDF2BB663910070BB8C /* MealsView.swift in Sources */,
+				1873DDE32BB66AD00070BB8C /* MealsViewModel.swift in Sources */,
+				1873DDE52BB66F230070BB8C /* Elevations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
